@@ -17,7 +17,7 @@ const port = process.env.PORT || 4000;
 //  Allowed origins
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://grocery-sand-chi.vercel.app", // your frontend domain
+  "https://grocery-mu-eight.vercel.app", // my frontend domain
 ];
 
 //  CORS (add BEFORE any route)
