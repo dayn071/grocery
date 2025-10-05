@@ -107,7 +107,7 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             {open && (
-                <div className={`${open ? 'flex' : 'hidden'} absolute top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden`}>
+                <div className={`${open ? 'flex' : 'hidden'} absolute top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden z-2`}>
                 <Link to="/" className="block" onClick={() => setOpen(false)}>Home</Link>
                 <Link to="/products" className="block" onClick={() => setOpen(false)}>All Products</Link>
                 {user &&
